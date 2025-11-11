@@ -1,0 +1,22 @@
+{
+  "name": "macro-split",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.20.0",
+  "devDependencies": {
+    "webpack": "^5.102.1",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "@swc/core": "^1.15.1",
+    "@swc/plugin-swc-sdk": "^11.1.0",
+    "swc-loader": "^0.2.6"
+  }
+}
