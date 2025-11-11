@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmacro_split=self.webpackChunkmacro_split||[]).push([[970],{970:(s,c,l)=>{function o(s){console.log(s)}l.d(c,{log:()=>o})}}]);
