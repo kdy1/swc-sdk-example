@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rm -rf dist/* && webpack"
+    "build": "rm -rf dist/* && webpack",
+    "patch-build": "node ./scripts/patch-build.mjs"
   },
   "keywords": [],
   "author": "",
