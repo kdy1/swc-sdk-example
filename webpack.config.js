@@ -17,11 +17,10 @@ module.exports = {
           options: {
             env: {
               targets: "defaults",
-              debug: true,
             },
             jsc: {
               experimental: {
-                plugins: ["@swc/plugin-swc-sdk"],
+                plugins: [["@swc/plugin-swc-sdk",{}]],
               },
             },
           },
